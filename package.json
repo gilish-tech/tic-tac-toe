@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start": "npm run watch",
+        "watch": "tsc main.ts -w & nodemon main.js",
+        "build": "tsc",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "@types/node": "^20.9.0"
+    }
+}
